@@ -12,11 +12,11 @@ from streamlit_option_menu import option_menu
 
 #loading the saved models
 
-diabetes_model = pickle.load(open("E:/ML_Models Deployment/Multiple Disease Predictive System/diabetes_trained_model.sav",'rb'))
+diabetes_model = pickle.load(open("diabetes_trained_model.sav",'rb'))
 
-heart_disease_model = pickle.load(open("E:/ML_Models Deployment/Multiple Disease Predictive System/heart_disease_prediction_model.sav",'rb'))
+heart_disease_model = pickle.load(open("heart_disease_prediction_model.sav",'rb'))
 
-breast_cancer_model = pickle.load(open("E:/ML_Models Deployment/Multiple Disease Predictive System/breast_cancer_prediction_model.sav",'rb'))
+breast_cancer_model = pickle.load(open("breast_cancer_prediction_model.sav",'rb'))
 
 #sidebar for navigation
 
@@ -287,3 +287,4 @@ if(selected == 'Breast Cancer Prediction'):
     
     
     
+
